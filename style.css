@@ -7,16 +7,18 @@ body {
   display: flex;
   align-items: center;
   height: 100vh;
+  background-color: #F6F9FC;
 }
 
 .gameboard {
   height: 100vh;
   width: 100vh;
   border-radius: 50%;
-  overflow: hidden;
   margin: 0 auto;
+  overflow: hidden;
   max-height: 60vh;
   max-width: 60vh;
+  cursor: pointer;
 }
 
 .color {
@@ -34,35 +36,39 @@ body {
 }
 
 .verde {
-  background: #2f7d32;
+  background: #6EB998;
+  transition: 0.4s;
 }
 
 .verde.light {
-  background: #4cb050;
+  background: #91d3b6;
 }
 
 .rojo {
-  background: #c42829;
+  background: #D43846;
+  transition: 0.4s;
 }
 
 .rojo.light {
-  background: #f44234;
+  background: #e7646f;
 }
 
 .amarillo {
-  background: #fdd734;
+  background: #F4D201;
+  transition: 0.4s;
 }
 
 .amarillo.light {
-  background: #ffec3a;
+  background: #f1e596;
 }
 
 .azul {
-  background: #0277bc;
+  background: #47bcee;
+  transition: 0.4s;
 }
 
 .azul.light {
-  background: #02aaf5;
+  background: #86cfec;
 }
 
 .btn-start {
@@ -76,10 +82,15 @@ body {
   left: calc(50% - 200px);
   border: none;
   border-radius: 80px;
-  cursor: pointer;
   outline: none;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
 .hide {
   display: none;
+}
+
+.btn-start:hover {
+  transform: scale(1.07);
 }
