@@ -41,7 +41,7 @@ body {
 }
 
 .verde.light {
-  background: #91d3b6;
+  background: #91d3b699;
 }
 
 .rojo {
@@ -50,7 +50,7 @@ body {
 }
 
 .rojo.light {
-  background: #e7646f;
+  background: #e7646f99;
 }
 
 .amarillo {
@@ -59,7 +59,7 @@ body {
 }
 
 .amarillo.light {
-  background: #f1e596;
+  background: #f1e59699;
 }
 
 .azul {
@@ -68,7 +68,7 @@ body {
 }
 
 .azul.light {
-  background: #86cfec;
+  background: #47bcee99;
 }
 
 .btn-start {
