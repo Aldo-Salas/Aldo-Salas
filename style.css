@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   height: 100vh;
-  background-color: #F6F9FC;
+  background-color: #f6f9fc;
 }
 
 .gameboard {
@@ -36,7 +36,7 @@ body {
 }
 
 .verde {
-  background: #6EB998;
+  background: #6eb998;
   transition: 0.4s;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .rojo {
-  background: #D43846;
+  background: #d43846;
   transition: 0.4s;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .amarillo {
-  background: #F4D201;
+  background: #f4d201;
   transition: 0.4s;
 }
 
